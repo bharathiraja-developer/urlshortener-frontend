@@ -4,7 +4,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import SigninPage from "./components/SigninPage";
 import Welcome from "./components/Welcome";
 import Forget from "./components/Forget";
-import Reset from "./components/reset";
+import Reset from "./components/Reset";
 import ResetSucess from "./components/ResetSucess";
 import Home from "./components/Home";
 import Createurl from "./components/Createurl";
