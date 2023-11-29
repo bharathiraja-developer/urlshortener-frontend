@@ -5,6 +5,7 @@ import axios from "axios";
 
 function Welcome() {
   const { token } = useParams();
+  console.log(token);
   axios.patch(
     `https://urlshortener-f2s1.onrender.com/api/users/verify?token=${token}`
   );
